@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jorloque/jrogito/issues"
   },
-  "homepage": "https://github.com/jorloque/jrogito#readme"
+  "homepage": "https://github.com/jorloque/jrogito#readme",
+  "devDependencies": {
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
 }
