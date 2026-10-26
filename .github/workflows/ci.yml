@@ -22,3 +22,7 @@ jobs:
       - name: Validar HTML (html-validate)
         working-directory: ./despliegue
         run: npx html-validate index.html
+    
+      - name: Linting CSS (stylelint)
+        working-directory: ./despliegue
+        run: npx stylelint "css/**/*.css"
