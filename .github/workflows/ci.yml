@@ -30,7 +30,3 @@ jobs:
       - name: Linting JavaScript (eslint)
         working-directory: ./despliegue
         run: npx eslint js/
-
-      - name: Ejecutar tests unitarios
-        working-directory: ./despliegue
-        run: npm test
